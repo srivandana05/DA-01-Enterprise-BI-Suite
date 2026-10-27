@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="uYl2jMZU-w2-LDqUVPY_">
+    <mxGraphModel dx="2260" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XQbL9P9jWvSP_QuKcet--4" edge="1" parent="1" source="XQbL9P9jWvSP_QuKcet--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="XQbL9P9jWvSP_QuKcet--3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--13" edge="1" parent="1" source="XQbL9P9jWvSP_QuKcet--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="XQbL9P9jWvSP_QuKcet--12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#000033, #030344);gradientColor=none;strokeColor=#3333FF;" value="&lt;h3&gt;&lt;font face=&quot;Arial&quot;&gt;SQL SERVER&lt;/font&gt;&lt;/h3&gt;&lt;p&gt;&lt;font face=&quot;Arial&quot;&gt;AdventureWorksDW2022&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Arial&quot;&gt;Source tables and sales data&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Arial&quot;&gt;SQL Agent: Data-quality validation and run logging&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="340" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--6" edge="1" parent="1" source="XQbL9P9jWvSP_QuKcet--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="XQbL9P9jWvSP_QuKcet--5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#0F6158);strokeColor=light-dark(#000000,#15BD9D);" value="&lt;h3&gt;POWER QUERY&lt;/h3&gt;&lt;p&gt;Data connection and import&lt;/p&gt;&lt;p&gt;Data preparation and transformation&lt;/p&gt;" vertex="1">
+          <mxGeometry height="95" width="340" x="250" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--11" edge="1" parent="1" source="XQbL9P9jWvSP_QuKcet--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="XQbL9P9jWvSP_QuKcet--10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--16" edge="1" parent="1" source="XQbL9P9jWvSP_QuKcet--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="XQbL9P9jWvSP_QuKcet--14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#051913);strokeColor=light-dark(#000000,#2E5744);" value="&lt;h3&gt;POWER BI SEMANTIC MODEL&lt;/h3&gt;&lt;p&gt;Star schema and table relationships&lt;/p&gt;&lt;p&gt;DAX measures · KPI calculations&lt;/p&gt;&lt;p&gt;Row-Level Security (RLS)&lt;/p&gt;&lt;p&gt;Imported data model&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="380" x="230" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#000000,#1C022B);arcSize=22;strokeColor=light-dark(#000000,#8E58C2);" value="&lt;h3&gt;EXECUTIVE BI DASHBOARD&lt;/h3&gt;&lt;p&gt;Sales · Finance · HR · Supply Chain&lt;/p&gt;&lt;p&gt;Interactive KPI cards and visualisations&lt;/p&gt;&lt;p&gt;Region, Year and Currency slicers&lt;/p&gt;&lt;p&gt;Bookmarks · Drill-through · RLS&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="370" x="235" y="581" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=light-dark(#000000,#616161);fillColor=light-dark(#FFFFFF,#3B3B3B);" value="&lt;h3&gt;SQL AGENT JOB&lt;/h3&gt;&lt;p&gt;DA01_DataProcessing&lt;/p&gt;&lt;p&gt;Validate sales data&lt;/p&gt;&lt;p&gt;Log processing status&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="200" x="-40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XQbL9P9jWvSP_QuKcet--14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#1F1F1F);strokeColor=light-dark(#000000,#475354);" value="&lt;h3&gt;DATA REFRESH&lt;/h3&gt;&lt;p&gt;Manual refresh&lt;/p&gt;&lt;p&gt;Power BI Desktop → Home → Refresh&lt;/p&gt;&lt;p&gt;Reloads imported source data&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="230" x="680" y="378" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
